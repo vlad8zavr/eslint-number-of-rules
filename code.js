@@ -1,8 +1,8 @@
 function sayHi (  name  ){
-    var age=10;
+    var age = 10;
 }
 
-const age=10;
+const age = 10;
 
 var things = [ "asd" , "asdads" ];
 
@@ -31,3 +31,27 @@ let d = 4;
 const foo = a && b < 0 || c > 0 || d + 1 === 0;
 
 console.log('foo', foo);
+
+function addCount(one, two) {
+    return one + two;
+}
+
+function badCount(one, two){
+  return one + two - 1;
+}
+
+addCount(1, 2);
+badCount(1, 2);
+
+if(a) {
+    addCount(1, 2);
+}
+
+if (b && c) {
+    addCount(1, 2);
+}
+
+const x=a+5;
+const y = a + 5;
+
+console.log(x, y);
