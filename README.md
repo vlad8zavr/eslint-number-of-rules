@@ -1,0 +1,1 @@
+# eslint-number-of-rules
