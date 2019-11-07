@@ -15,6 +15,16 @@
 
 (запуск линта)
 
+## EsLint usage (for VsCode)
+
+### 1. Install plugin `EsLint`
+
+### 2. `File > preferences > settings`
+
+`Extensions -> EsLint -> Eslint: Run -> onSave`
+
+Warnings and mistakes are shown each time you save your file in *PROBLEMS* tab.
+
 ### Links
 
 [arbnb github](https://github.com/eslint/eslint)
